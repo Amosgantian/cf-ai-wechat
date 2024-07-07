@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "wechat-yahaibio"
+          project: "yahaibiology"
           entrypoint: "server/index.ts"
           root: ".output"
